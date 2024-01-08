@@ -20,7 +20,6 @@ void print_hex(const byte in[], size_t len) {
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
 
   if (!SE05X.begin()) {
     Serial.println("Error with secure element");
