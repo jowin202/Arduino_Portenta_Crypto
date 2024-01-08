@@ -1,4 +1,3 @@
-// /home/johannes/.arduino15/packages/arduino/hardware/renesas_portenta/1.0.5/libraries/SE05X/src/
 #include <SE05X.h>
 
 
