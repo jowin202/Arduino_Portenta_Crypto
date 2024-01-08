@@ -30,7 +30,7 @@ void setup() {
   size_t decrypted_data_len = 32;
   byte encrypted_data[32];
   byte decrypted_data[32];
-  for (int i = 0; i < 64; i++)
+  for (int i = 0; i < 32; i++)
   {
     encrypted_data[i] = decrypted_data[i] = 0;
   }
