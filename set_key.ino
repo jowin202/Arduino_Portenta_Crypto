@@ -10,7 +10,7 @@ const byte aes_key[32] = {
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  
 
   if (!SE05X.begin()) {
     Serial.println("Error with secure element");
